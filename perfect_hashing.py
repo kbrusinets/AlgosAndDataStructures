@@ -97,8 +97,9 @@ def perfect_hashing(values):
                 root_hash[ind] = temp_list
                 break
     return root_hash
-
+'''
 a = []
 for i in range(10):
     a.append(randint(0,100))
 print(perfect_hashing(a))
+'''
