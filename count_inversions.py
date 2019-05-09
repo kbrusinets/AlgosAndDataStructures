@@ -26,6 +26,7 @@ def merge_and_count_inv(array, start_first, start_second, finish):
             j += 1
     return inversions
 
-a = [3,4,6,1,2,5]
-
-print (count_inversions(a, 0, len(a)))
+input_file = open("input_inversions.txt", "r")
+array = [int(x) for x in input_file.readlines()]
+input_file.close()
+print(count_inversions(array, 0, len(array)))

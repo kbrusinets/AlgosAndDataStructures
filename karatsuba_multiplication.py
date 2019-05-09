@@ -88,8 +88,8 @@ def long_subtraction(first, second):
         start_index = 0
     return ''.join(str(s) for s in first[start_index: len(first)])
 
-a = 957898799994567785720006879879
-b = 25682345245874567946725456
+a = 3141592653589793238462643383279502884197169399375105820974944592
+b = 2718281828459045235360287471352662497757247093699959574966967627
 
 
-print(int(karatsuba_multiplication(str(a), str(b))) == a*b)
+print(int(karatsuba_multiplication(str(a), str(b))))
